@@ -123,7 +123,7 @@ export const EditListingLocationFormComponent = props => {
               iconClassName={css.locationAutocompleteInputIcon}
               predictionsClassName={css.predictionsRoot}
               validClassName={css.validLocation}
-              autoFocus={autoFocus}
+              // autoFocus={autoFocus}
               name="location"
               label={intl.formatMessage({ id: 'EditListingLocationForm.address' })}
               placeholder={intl.formatMessage({
